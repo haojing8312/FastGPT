@@ -121,9 +121,7 @@ const Login = () => {
                 right={5}
                 bottom={3}
                 onClick={onOpen}
-              >
-                无法登录，点击联系
-              </Box>
+              ></Box>
             )}
           </Box>
         </Flex>

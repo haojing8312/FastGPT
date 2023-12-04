@@ -54,7 +54,7 @@ const defaultFeConfigs: FeConfigsType = {
   show_doc: true,
   docUrl: 'https://docs.fastgpt.run',
   openAPIDocUrl: 'https://doc.fastgpt.run/docs/development/openapi',
-  systemTitle: 'FastGPT',
+  systemTitle: '智能助理',
   authorText: 'Made by FastGPT Team.',
   limit: {
     exportLimitMinutes: 0

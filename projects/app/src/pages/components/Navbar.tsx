@@ -22,34 +22,34 @@ const Navbar = () => {
   const menuList = [
     ...(feConfigs?.show_contact
       ? [
-          {
-            label: t('home.Commercial'),
-            key: 'Commercial',
-            onClick: () => {
-              window.open(
-                'https://fael3z0zfze.feishu.cn/share/base/form/shrcnRxj3utrzjywsom96Px4sud',
-                '_blank'
-              );
-            }
-          },
-          {
-            label: t('home.Community'),
-            key: 'community',
-            onClick: () => {
-              onOpenCommunity();
-            }
-          }
+          // {
+          //   label: t('home.Commercial'),
+          //   key: 'Commercial',
+          //   onClick: () => {
+          //     window.open(
+          //       'https://fael3z0zfze.feishu.cn/share/base/form/shrcnRxj3utrzjywsom96Px4sud',
+          //       '_blank'
+          //     );
+          //   }
+          // },
+          // {
+          //   label: t('home.Community'),
+          //   key: 'community',
+          //   onClick: () => {
+          //     onOpenCommunity();
+          //   }
+          // }
         ]
       : []),
     ...(feConfigs?.show_doc
       ? [
-          {
-            label: t('home.Docs'),
-            key: 'docs',
-            onClick: () => {
-              window.open(`${feConfigs.docUrl}/docs/intro`);
-            }
-          }
+          // {
+          //   label: t('home.Docs'),
+          //   key: 'docs',
+          //   onClick: () => {
+          //     window.open(`${feConfigs.docUrl}/docs/intro`);
+          //   }
+          // }
         ]
       : [])
   ];
